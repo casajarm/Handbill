@@ -1,0 +1,18 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:df="nativescript-ui-dataform" navigatingTo="onNavigatingTo" loaded="pageLoaded">
+    <ActionBar title="Email Address Setup" icon=""></ActionBar>
+    
+    <StackLayout id="form-frame" class="p-20">
+        <Label text="Enter your email address below" class="h3 text-center" />
+        <TextField hint="someone@somewhere.com"
+            text = "{{emailAddress}}"
+            color="orangered" 
+            backgroundColor="lightyellow" />
+        <Button text="Save Email" tap="{{ saveEmail }}" />
+        <Label text="{{ result }}" textWrap="true" />
+        <!--
+        <df:RadDataForm id="email-form" source="{{ album }}">
+        </df:RadDataForm>
+        -->
+    </StackLayout>
+    
+</Page>
