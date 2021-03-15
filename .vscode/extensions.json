@@ -1,5 +1,6 @@
 {
 	"recommendations": [
-		"nativescript.nativescript"
+		"nativescript.nativescript",
+		"tsvetan-ganev.nativescript-xml-snippets"
 	]
 }
